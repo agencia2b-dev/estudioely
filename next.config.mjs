@@ -1,6 +1,5 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   // Removido "output: export" para permitir SSR e melhor SEO
   images: {
     unoptimized: true,
