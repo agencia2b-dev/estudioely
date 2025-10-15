@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estúdio Ely - Open Graph Image Template</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #000000 0%, #1a0000 50%, #000000 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        
+        .og-container {
+            width: 1200px;
+            height: 630px;
+            background: linear-gradient(135deg, #000000 0%, #1a0000 50%, #000000 100%);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 80px;
+        }
+        
+        /* Elementos decorativos geométricos */
+        .geometric {
+            position: absolute;
+            opacity: 0.1;
+        }
+        
+        .geometric-1 {
+            width: 300px;
+            height: 300px;
+            background: #ff0000;
+            transform: rotate(45deg);
+            top: -150px;
+            left: -150px;
+        }
+        
+        .geometric-2 {
+            width: 200px;
+            height: 200px;
+            background: #ff0000;
+            border-radius: 50%;
+            bottom: -100px;
+            right: -100px;
+        }
+        
+        .geometric-3 {
+            width: 150px;
+            height: 150px;
+            background: #ff0000;
+            transform: rotate(30deg);
+            top: 50px;
+            right: 100px;
+        }
+        
+        /* Conteúdo */
+        .content {
+            position: relative;
+            z-index: 10;
+            text-align: center;
+            color: white;
+        }
+        
+        .logo {
+            font-family: 'Pacifico', cursive;
+            font-size: 120px;
+            font-weight: 400;
+            margin-bottom: 30px;
+            color: white;
+            text-shadow: 0 0 30px rgba(255, 0, 0, 0.5);
+        }
+        
+        .tagline {
+            font-size: 48px;
+            font-weight: 300;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+        }
+        
+        .highlight {
+            color: #ff0000;
+            font-weight: 600;
+        }
+        
+        .subtitle {
+            font-size: 28px;
+            font-weight: 300;
+            color: #cccccc;
+            margin-top: 20px;
+        }
+        
+        .divider {
+            width: 200px;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, #ff0000, transparent);
+            margin: 30px auto;
+        }
+        
+        /* Efeito de brilho */
+        @keyframes glow {
+            0%, 100% {
+                text-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
+            }
+            50% {
+                text-shadow: 0 0 40px rgba(255, 0, 0, 0.6);
+            }
+        }
+        
+        .logo {
+            animation: glow 3s ease-in-out infinite;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="og-container">
+        <!-- Elementos decorativos -->
+        <div class="geometric geometric-1"></div>
+        <div class="geometric geometric-2"></div>
+        <div class="geometric geometric-3"></div>
+        
+        <!-- Conteúdo -->
+        <div class="content">
+            <div class="logo">Estúdio Ely</div>
+            <div class="divider"></div>
+            <div class="tagline">
+                <span class="highlight">Color Grading</span> Profissional
+            </div>
+            <div class="subtitle">
+                Pós-Produção Audiovisual | Cinema | TV | Streaming
+            </div>
+        </div>
+    </div>
+    
+    <div style="position: fixed; bottom: 20px; right: 20px; background: rgba(0,0,0,0.8); color: white; padding: 15px; border-radius: 8px; font-size: 14px;">
+        <strong>📸 Como capturar:</strong><br>
+        1. Pressione F11 para tela cheia<br>
+        2. Use ferramenta de screenshot (Win + Shift + S)<br>
+        3. Salve como: og-image.jpg (1200x630px)<br>
+        4. Coloque em: /public/og-image.jpg
+    </div>
+</body>
+</html>
