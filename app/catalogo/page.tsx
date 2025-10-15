@@ -8,6 +8,16 @@ import Footer from '../../components/Footer';
 import Link from 'next/link';
 import ParallaxWrapper from '../../components/ui/ParallaxWrapper';
 
+// Metadata para SEO (será aplicada via layout ou export)
+export const metadata = {
+  title: 'Catálogo de Projetos',
+  description: 'Explore nosso portfólio completo de projetos de color grading para cinema, TV, streaming e publicidade. Veja nossos trabalhos em entretenimento, séries e campanhas publicitárias.',
+  openGraph: {
+    title: 'Catálogo de Projetos | Estúdio Ely',
+    description: 'Explore nosso portfólio completo de projetos de color grading',
+  },
+};
+
 function CatalogContent() {
   const searchParams = useSearchParams();
   const [activeFilter, setActiveFilter] = useState('Todos');

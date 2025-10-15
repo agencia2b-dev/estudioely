@@ -1,0 +1,23 @@
+# robots.txt para Estúdio Ely
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://estudioely.com.br/sitemap.xml
+
+# Crawl-delay para bots mais agressivos
+User-agent: *
+Crawl-delay: 1
+
+# Permitir todos os bots principais
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /

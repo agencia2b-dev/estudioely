@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export",
+  // Removido "output: export" para permitir SSR e melhor SEO
   images: {
     unoptimized: true,
   },
