@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     description: 'Estúdio especializado em color grading e correção de cores para cinema, TV, streaming e publicidade.',
     images: [
       {
-        url: 'https://estudioely.com.br/og-image.jpg',
+        url: 'https://estudioely.com.br/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Estúdio Ely - Color Grading',
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Estúdio Ely – Color Grading Profissional',
     description: 'Estúdio especializado em color grading e correção de cores para produções audiovisuais',
-    images: ['https://estudioely.com.br/og-image.jpg'],
+    images: ['https://estudioely.com.br/og-image.png'],
   },
   icons: {
     icon: "https://estudioely.com.br/wp-content/uploads/2025/03/cropped-favicon-270x270.png",
